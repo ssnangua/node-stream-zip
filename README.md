@@ -1,3 +1,7 @@
+Merged [pull request #105](https://github.com/antelle/node-stream-zip/pull/105) to support UTF-8 entry name.
+
+---
+
 # node-stream-zip ![CI Checks](https://github.com/antelle/node-stream-zip/workflows/CI%20Checks/badge.svg)
 
 node.js library for reading and extraction of ZIP archives.  

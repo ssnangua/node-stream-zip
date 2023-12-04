@@ -1,7 +1,7 @@
 {
-  "name": "node-stream-zip",
+  "name": "@ssnangua/node-stream-zip",
   "version": "1.15.0",
-  "description": "node.js library for reading and extraction of ZIP archives",
+  "description": "node.js library for reading and extraction of ZIP archives (support UTF-8 entry name)",
   "keywords": [
     "zip",
     "archive",
@@ -23,13 +23,14 @@
   "scripts": {
     "lint": "eslint node_stream_zip.js test/tests.js",
     "check-types": "tsc node_stream_zip.d.ts",
-    "test": "nodeunit test/tests.js"
+    "test": "nodeunit test/tests.js",
+    "publish": "npm publish --access public"
   },
   "main": "node_stream_zip.js",
   "types": "node_stream_zip.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/antelle/node-stream-zip.git"
+    "url": "https://github.com/ssnangua/node-stream-zip.git"
   },
   "engines": {
     "node": ">=0.12.0"
