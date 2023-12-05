@@ -1,7 +1,7 @@
 {
   "name": "@ssnangua/node-stream-zip",
-  "version": "1.15.0",
-  "description": "node.js library for reading and extraction of ZIP archives (support UTF-8 entry name)",
+  "version": "1.15.1",
+  "description": "node.js library for reading and extraction of ZIP archives (support UTF-8 entry name and fixed some bugs)",
   "keywords": [
     "zip",
     "archive",

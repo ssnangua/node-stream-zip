@@ -517,6 +517,9 @@ const StreamZip = function (config) {
                         return;
                     }
                     fsStm = fs.createWriteStream(outPath, { fd: fdFile });
+                    fsStm.on('error',(err)=>{
+                        callback(err);
+                    });
                     fsStm.on('finish', () => {
                         that.emit('extract', entry, outPath);
                         if (!errThrown) {

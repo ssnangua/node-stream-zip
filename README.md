@@ -1,4 +1,5 @@
 Merged [pull request #105](https://github.com/antelle/node-stream-zip/pull/105) to support UTF-8 entry name.
+Merged [pull request #104](https://github.com/antelle/node-stream-zip/pull/104) and [pull request #93](https://github.com/antelle/node-stream-zip/pull/93) to fix some bugs.
 
 ---
 
